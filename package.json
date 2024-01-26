@@ -1,0 +1,32 @@
+{
+  "name": "pdf-express-puppeteer",
+  "version": "1.0.0",
+  "description": "A Pdf Generator with Puppeteer for Express",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinjb32/pdf-gen-puppeteer.git"
+  },
+  "keywords": [
+    "pdf",
+    "pdf-generator",
+    "html-pdf"
+  ],
+  "author": "Austin Jacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinjb32/pdf-gen-puppeteer/issues"
+  },
+  "homepage": "https://github.com/austinjb32/pdf-gen-puppeteer#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.2",
+    "puppeteer": "^21.9.0"
+  }
+}
