@@ -1,6 +1,6 @@
 {
   "name": "pdf-express-puppeteer",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Pdf Generator with Puppeteer for Express",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
