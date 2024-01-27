@@ -16,7 +16,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/austinjb32/pdf-gen-puppeteer.git"
+    "url": "git+https://github.com/austinjb32/pdf-express-puppeteer.git"
   },
   "keywords": [
     "pdf",
