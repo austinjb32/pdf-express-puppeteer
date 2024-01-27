@@ -1,6 +1,6 @@
 {
   "name": "pdf-express-puppeteer",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "A Pdf Generator with Puppeteer for Express",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,6 +10,7 @@
    ],
   "scripts": {
     "build": "tsup",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 

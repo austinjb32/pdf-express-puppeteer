@@ -1,7 +1,17 @@
 import {launch, PDFOptions} from "puppeteer";
 import { Response } from "express";
 
-export async function generatePdf (res:Response, content?:string, url?:string, filename:string="test", pdfOptions?:PDFOptions, download?:boolean, save?:boolean ){
+export interface PdfOptions {
+    res: Response;
+    content?: string;
+    url?: string;
+    filename?: string;
+    pdfOptions?: PDFOptions;
+    download?: boolean;
+    save?: boolean;
+  }
+export async function generatePdf (options: PdfOptions){
+    const { res, content, url, filename = "test", pdfOptions, download, save } = options;
 try {
         const browser = await launch({headless:"new"});
         const Options:PDFOptions = {
